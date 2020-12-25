@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+export { default as Button} from './components/Button/index'
+export { default as Meun} from './components/Menu'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export {default as Icon} from './components/Icon'
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export {default as Input} from './components/Input/input'
+
+
+export { Progress} from './components/Progress/progress'
+
+export {default as AutoComplete} from './components/AutoComplete/AutoComplete'
+
+export { Upload} from './components/Upload/Upload'
+
+
+
+
